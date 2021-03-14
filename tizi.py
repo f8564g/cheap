@@ -14,8 +14,8 @@ driver = webdriver.Chrome(options=chrome_opt)
 '''
 
 def get_email():
-    a = random.randint(11, 99)
-    b = random.randint(0, 20)
+    a = random.randint(11, 9999)
+    b = random.randint(0, 9920)
     email = 'varytmp+{}uu{}d@gmail.com'.format(a, b)
     return email
 def send(email):
